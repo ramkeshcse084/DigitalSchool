@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:orientation="vertical"
+    tools:context="com.nestedmango.digitalschool.SchoolProfile"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textViewprofile"
+        android:layout_width="103dp"
+        android:layout_height="36dp"
+        android:text="Profile"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textViewaboutschool"
+        android:layout_width="189dp"
+        android:layout_height="36dp"
+        android:paddingBottom="2dp"
+        android:text="About School"
+        android:textSize="15dp"
+        android:layout_margin="20sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="66dp"
+        tools:padding="3dp" />
+
+    <EditText
+        android:id="@+id/editTextaboutschool"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:selectAllOnFocus="true"
+        android:singleLine="false"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="117dp"
+        android:layout_weight="0.17" />
+
+    <Button
+        android:id="@+id/buttonnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:id="@+id/buttonskip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+</LinearLayout>
